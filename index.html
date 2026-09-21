@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Viagem</title>
+    <!-- Apontando para dentro da pasta css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="card">
+        <input type="number" id="distancia" placeholder="Digite a distância da Viagem" step="any">
+        <input type="number" id="consumo" placeholder="Digite o consumo do Veículo" step="any">
+        <input type="number" id="preco" placeholder="Digite o Preço do Combustível" step="any">
+        <button onclick="calcular()">Calcular</button>
+        
+        <p id="resultado"></p>
+    </div>
+
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
